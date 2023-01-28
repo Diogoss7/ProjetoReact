@@ -18,7 +18,6 @@ export default function EffectExample() {
         <p></p>
         Adicionar
       </button>
-
       <button onClick={() => setCounter(counter - 1)}>
         <p></p>
         <p></p>

@@ -13,7 +13,7 @@ export default function paginaUm() {
       
       <Link to="/home">
         <button>
-          Ir Para Home    a
+          Ir Para Home
         </button>
       </Link>
     </div>
