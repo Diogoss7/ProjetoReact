@@ -4,7 +4,7 @@ import useStyles from './style';
 import TextField from '@mui/material/TextField';
 import Button from '@mui/material/Button';
 export default function Signin() {
-  const classes = useStyles; 
+  const classes = useStyles;
 
 
 
@@ -20,7 +20,9 @@ export default function Signin() {
           <TextField label="Senha" variant="outlined" />
         </div>
         <div style={classes.footerLogin}>
-          <Button variant="contained">Entrar</Button>
+          <Link to='/home'>
+            <Button variant="contained">Entrar</Button>
+          </Link>
           <p></p>
           <Link to='/signup'>
             registre-se

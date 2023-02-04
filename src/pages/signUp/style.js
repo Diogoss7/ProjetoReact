@@ -5,7 +5,7 @@ export default
         },
         containerMax: {
             height: '100vh',
-            width: '',
+            width: '100%',
             display: 'flex',
             justifyContent: 'center',
             alignItems: 'center',
